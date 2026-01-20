@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.titulo }}</title>
+</head>
+<body>
+  <h1>{{ page.titulo }}</h1>
+  <h2>{{ page.preco }}</h2>
+
+  <p>
+    <a href="{{ page.link }}" target="_blank">Ver anúncio na imobiliária</a>
+  </p>
+
+  <h3>Características</h3>
+  <p>{{ page.caracteristicas }}</p>
+
+  <h3>Minha opinião</h3>
+  <p>{{ page.opiniao }}</p>
+
+  <h3>Fotos e comentários</h3>
+  <div>
+    {{ content }}
+  </div>
+
+  <br>
+  <a href="/">Voltar para lista</a>
+</body>
+</html>
